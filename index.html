@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>RESO MUSIC - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30" class="invert" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="110" class="invert1" src="img/R.png" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                   
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2>
+                        Welcome
+                    </h2>
+                </div>
+
+                <div class="songList">
+
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><span>Legal</span></a></div>
+                    <div><span>Privacy Center</span></a></div>
+                    <div><span>Privacy Policy</span></a>
+                    </div>
+                    <div><span>Cookies</span></a></div>
+                    <div><span>About Ads</span></a></div>
+                    <div><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <!-- Add this HTML code where you want to place the search bar -->
+                    
+                    <div class="hamburgerContainer">
+                        
+                        <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                            d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                            d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- <div id="search-container">
+                    <input type="text" id="search-input" placeholder="Search for tracks...">
+                    <button id="search-button">Search</button>
+                </div>
+                <div id="search-results-container">
+                     Search results will be displayed here -->
+                    <!-- Inside the <div class="buttons"> section of your existing code -->
+                    <div class="buttons">
+                        <a href="login.html" class="loginbtn" id="loginButton">Log in</a>
+                        <a href="signup.html" class="signupbtn" id="signupButton">Sign up</a>
+                    </div>
+
+
+                </div> 
+
+                <div class="RESO">
+                    <h1>RESO Playlists</h1>
+                </div>
+                <div class="cardContainer"> 
+
+                <div class="card" id="card">
+                    <div class="play" id="plays">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                            </svg>
+                            
+                    </div>
+                    
+                    <img src="covers/animal.png" alt=""> 
+
+                            <h2>Arjan vailly</h2>
+                            <p>"Animal"</p>
+                            <audio src="gaane/Arjan Vailly.mp3"></audio>
+                             </div>
+
+                             <div class="card">
+                                <div class="play" id="plays">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                        </svg>
+                                        
+                             </div>
+                                
+                            <img src="covers/jawan.png" alt=""> 
+            
+                                <h2>Chaleya</h2>
+                                <p>"Jawan"</p>
+                                <audio src="gaane/Chaleya.mp3"></audio>
+                             </div>
+
+                              <div class="card">
+                                <div class="play" id="plays">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                        </svg>
+                                                    
+                                        </div>
+                                            
+                            <img src="covers/Afghan Jalebi.jpg" alt=""> 
+                        
+                                <h2>Afghan Jalebi</h2>
+                                <p>"phantom"</p>
+                                <audio src="gaane/Afghan Jalebi.mp3"></audio>
+                            </div> 
+
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Amplifier.jpg" alt=""> 
+                                    
+                                <h2>Amplifier</h2>
+                                <p>"Imran khan"</p>
+                                <audio src="gaane/Amplifier.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play" id="plays">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Binte Dil.jpg" alt=""> 
+                                    
+                                <h2>Binte dil</h2>
+                                <p>"Padmavaat"</p>
+                                <audio src="gaane/Binte Dil.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Guzarish.jpg" alt=""> 
+                                    
+                                <h2>Guzarish</h2>
+                                <p>"Ghajni"</p>
+                                <audio src="gaane/Guzarish.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Kabhi Kabhi Aditi.jpg" alt=""> 
+                                    
+                                <h2>Kabhi Kabhi Aditi</h2>
+                                <p>"Jaane Tu... Ya Jaane Na"</p>
+                                <audio src="gaane/Kabhi Kabhi Aditi.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Kaise Hua.jpg" alt=""> 
+                                    
+                                <h2>Kaise Hua</h2>
+                                <p>"Kabir Singh"</p>
+                                <audio src="gaane/Kaise Hua.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Tum Se Hi.jpg" alt=""> 
+                                    
+                                <h2>Tum Se Hi</h2>
+                                <p>"Jab we met"</p>
+                                <audio src="gaane/Tum Se Hi.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Pagol.jpg" alt=""> 
+                                    
+                                <h2>Pagol</h2>
+                                <p>"Deep jandu"</p>
+                                <audio src="gaane/Pagol.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/945.jpg" alt=""> 
+                                    
+                                <h2>9:45</h2>
+                                <p>"Prabh Singh"</p>
+                                <audio src="gaane/9;45.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/attention.png" alt=""> 
+                                    
+                                <h2>Attention</h2>
+                                <p>"Charlie puth"</p>
+                                <audio src="gaane/Attention.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/blinding lights.jpeg" alt=""> 
+                                    
+                                <h2>Blinding lights</h2>
+                                <p>"After Hours"</p>
+                                <audio src="gaane/Blinding Lights.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card"> 
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/calm down.jpeg" alt=""> 
+                                    
+                                <h2>Calm down</h2>
+                                <p>"Rema Ft.Salina Gomez"</p>
+                                <audio src="gaane/Calm Down.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/cheap thrills.jpeg" alt=""> 
+                                    
+                                <h2>Cheap THrills</h2>
+                                <p>"Sia"</p>
+                                <audio src="gaane/Cheap Thrills.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/gasolina.jpg" alt=""> 
+                                    
+                                <h2>Gasolina</h2>
+                                <p>"Daddy ankee"</p>
+                                <audio src="gaane/Gasolina.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/heat wavees.jpg" alt=""> 
+                                    
+                                <h2>Heat Waves</h2>
+                                <p>"Glass Animals"</p>
+                                <audio src="gaane/Heat Waves.mp3"></audio>
+                             </div> 
+                             
+                            <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/levitating.jpg" alt=""> 
+                                    
+                                <h2>Levitating</h2>
+                                <p>"Dua Lipa"</p>
+                                <audio src="gaane/Levitating.mp3"></audio>
+                             </div> 
+
+
+                             <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/perfect.jpeg" alt=""> 
+                                    
+                                <h2>Perfect</h2>
+                                <p>"Ed Sheran"</p>
+                                <audio src="gaane/Perfect.mp3"></audio>
+                             </div>     
+                             
+                             <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/let me love you.jpeg" alt=""> 
+                                    
+                                <h2>Let me love you</h2>
+                                <p>"Dj snake ft.justin bieber"</p>
+                                <audio src="gaane/Let Me Love You.mp3"></audio>
+                             </div>
+                             
+                             
+                             <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/smack that.jpeg" alt=""> 
+                                    
+                                <h2>smack that </h2>
+                                <p>"Akon"</p>
+                                <audio src="gaane/Smack That.mp3"></audio>
+                             </div>
+
+
+
+                             <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/ride it.jpg" alt=""> 
+                                    
+                                <h2>Ride it</h2>
+                                <p>"Jay sean"</p>
+                                <audio src="gaane/Ride It.mp3"></audio>
+                             </div>
+                
+                             <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Despacito.jpg" alt=""> 
+                                    
+                                <h2>Despacito</h2>
+                                <p>"Luis Fonsi"</p>
+                                <audio src="gaane/Despacito.mp3"></audio>
+                             </div>             
+
+
+                             <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/the box.jpeg" alt=""> 
+                                    
+                                <h2>The box</h2>
+                                <p>"Roddy Ricch"</p>
+                                <audio src="gaane/The Box.mp3"></audio>
+                             </div>
+                             
+                             
+
+                             <div class="card">
+                                <div class="play">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                
+                                        </div>
+                                                        
+                            <img src="covers/Stay.jpeg" alt=""> 
+                                    
+                                <h2>Stay</h2>
+                                <p>"Justin bieber"</p>
+                                <audio src="gaane/Stay.mp3"></audio>
+                             </div>             
+
+                                                    
+              
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+
+
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img width="35" id="previous" src="img/prevsong.svg" alt="">
+                            <img width="35" id="play" src="img/play.svg" alt="">
+                            <img width="35" id="next" className="next" src="img/nextsong.svg" alt="">
+                        </div>
+                        <div class="timevol">
+
+                       
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volume">
+                            <img width="25" src="img/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="shaazify.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
